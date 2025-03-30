@@ -14,7 +14,7 @@ if linkage != nil
   use_frameworks! :linkage => linkage.to_sym
 end
 
-target 'ShareDinner2' do
+target 'Share Dinner2' do
   config = use_native_modules!
 
   use_react_native!(
